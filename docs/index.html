@@ -7,12 +7,35 @@
       Spencer Vernon
     </title>
 
-    <link rel="stylesheet" href="/my_styles.css">
+    <style>
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      .banner-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+
+      .offset {
+        object-position: 100%;
+      }
+    </style>
   </head>
 
   <body>
     <div class="banner">
-      <img class="profile_pic" src="/profile_pic.jpg" alt="Spencer Vernon Family Picture">
+      <img class="banner-image" src="/profile_pic.jpg" alt="Spencer Vernon Family Picture">
     </div>
     
     <div class="name">
@@ -20,29 +43,43 @@
     </div>
 
     <div class="social-links">
-      <a href="https://github.com/svernon0" target="_blank"><img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png"></a>
+      <a href="https://github.com/svernon0" target="_blank"><img class="social-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="GitHub Logo"></a>
 
-      <a href="https://www.linkedin.com/in/spencervernon/" target="_blank"><img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png"></a>
+      <a href="https://www.linkedin.com/in/spencervernon/" target="_blank"><img class="social-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" alt="LinkedIn Logo"></a>
     </div>
 
     <div class="common-links">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Brigham_Young_University_medallion.svg/640px-Brigham_Young_University_medallion.svg.png">
+      <img class="thumbnail offset" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Cardenpope_uvu.jpg/640px-Cardenpope_uvu.jpg" alt="Arden Pope">
+      <a href="https://pubmed.ncbi.nlm.nih.gov/31339350/" target="_blank">
+        Mortality Risk and Fine Particulate Air Pollution in a Large, Representative Cohort of U.S. Adults - C. Arden Pope III
+      </a>
+    </div>
+    
+    <div class="common-links">
+      <img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Brigham_Young_University_medallion.svg/640px-Brigham_Young_University_medallion.svg.png" alt="BYU Logo">
       <a href="https://magazine.byu.edu/article/when-women-dont-speak/" target="_blank">
         When Women Don't Speak - Brittany Karford Rogers
       </a>
     </div>
 
-    <div>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Cardenpope_uvu.jpg/640px-Cardenpope_uvu.jpg">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/31339350/" target="_blank">
-        Mortality Risk and Fine Particulate Air Pollution in a Large, Representative Cohort of U.S. Adults - C. Arden Pope III
+    <div class="common-links">
+      <img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/New_York_Times_logo_variation.jpg/640px-New_York_Times_logo_variation.jpg" alt="NYTimes Logo">
+      <a href="https://www.nytimes.com/2022/07/12/magazine/talking-to-yourself.html" target="_blank">
+        The Power of Talking to Yourself - Paul McAdory
       </a>
     </div>
 
-    <div>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/New_York_Times_logo_variation.jpg/640px-New_York_Times_logo_variation.jpg">
-      <a href="https://www.nytimes.com/2022/07/12/magazine/talking-to-yourself.html" target="_blank">
-        The Power of Talking to Yourself - Paul McAdory
+    <div class="common-links">
+      <img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Jackie_Robinson%2C_Brooklyn_Dodgers%2C_1954.jpg/640px-Jackie_Robinson%2C_Brooklyn_Dodgers%2C_1954.jpg" alt="Jackie Robinson">
+      <a href="https://www.espn.com/mlb/story/_/id/33731976/why-jackie-robinson-was-even-better-baseball-player-realize" target="_blank">
+        Why Jackie Robinson was an even better baseball player than you realize - David Schoenfield
+      </a>
+    </div>
+
+    <div class="common-links">
+      <img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Hank_Aaron_1974.jpg/640px-Hank_Aaron_1974.jpg" alt="Hank Aaron">
+      <a href="https://fivethirtyeight.com/features/nobody-and-we-mean-nobody-was-consistently-great-like-hank-aaron/" target="_blank">
+        Nobody — And We Mean <em>Nobody</em> — Was Consistently Great Like Hank Aaron - Neil Paine
       </a>
     </div>
   </body>
